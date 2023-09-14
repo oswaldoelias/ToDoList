@@ -30,7 +30,7 @@ export default function App() {
 
       {/* Today's Tasks */}
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Today's Tasks</Text>
+        <Text style={styles.sectionTitle}>Hi, I am just messing with the UI!</Text>
         <View style={styles.items}>
           {/* This is where the tasks will go! */}
           {
@@ -68,7 +68,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E8EAED',
+    backgroundColor: 'gold',
   },
   tasksWrapper: {
     paddingTop: 80,
@@ -92,20 +92,20 @@ const styles = StyleSheet.create({
   input: {
     paddingVertical: 15,
     paddingHorizontal: 15,
-    backgroundColor: '#FFF',
+    backgroundColor: 'white',
     borderRadius: 60,
-    borderColor: '#C0C0C0',
+    borderColor: 'blue',
     borderWidth: 1,
     width: 250,
   },
   addWrapper: {
     width: 60,
     height: 60,
-    backgroundColor: '#FFF',
+    backgroundColor: 'white',
     borderRadius: 60,
     justifyContent: 'center',
     alignItems: 'center',
-    borderColor: '#C0C0C0',
+    borderColor: 'blue',
     borderWidth: 1,
   },
   addText: {},
